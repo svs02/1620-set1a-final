@@ -3,16 +3,34 @@
 
 <head>
     <meta charset="utf-8">
+    <title>gallery homepage</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="javascript.js"></script>
 </head>
 
 <body>
-    <h1>Welcome to our gallery</h1>
-    <p>Hover on any thumbnail to see it bigger</p>
-    <div id="thumb-bar"> </div>
-    <img class="displayed-img">
-    <label>What effect do you want to apply?</label>
-    <input id="effect" type="text">
-    <button>Submit</button>
+
+    <header>
+        <h1>Welcome to our gallery</h1>
+        <p>Hover on any thumbnail to see it bigger</p>
+    </header>
+    <section>
+        <div id="thumb-bar">
+            <img src="images/pic1B.jpg" alt="pic1B">
+            <img src="images/pic2B.jpg" alt="pic2B">
+            <img src="images/pic3B.jpg" alt="pic3B">
+            <img src="images/pic4B.jpg" alt="pic4B">
+            <img src="images/pic5B.jpg" alt="pic5B">
+
+        </div>
+        <img src="images/pic1.jpg" class="displayed-img">
+
+
+    </section>
+    <footer><label>What effect do you want to apply?</label>
+        <input id="effect" type="text">
+        <button>Submit</button></footer>
+
 </body>
 
 </html>
