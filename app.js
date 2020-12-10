@@ -13,8 +13,10 @@ for (var i = 0; i < thumbnails.length; i++) {
 }
 
 
-
-function getInput() {
-    var s = textfiled.value();
-    console.warn()
+function clickeffect() {
+    if (effect.value == "blur") {
+        effect.value = null;
+    } else {
+        alert("please enter a valid effect")
+    }
 }
