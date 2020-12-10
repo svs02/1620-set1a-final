@@ -18,7 +18,7 @@ body {
     padding: 5px;
 }
 
-.displayed-img {
+#displayed-img {
     width: 100%;
     padding: 5px;
 }
